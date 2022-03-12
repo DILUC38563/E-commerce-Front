@@ -1,0 +1,23 @@
+.slider {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.image {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.imgs {
+  width: 100vw;
+}
+.image h1 {
+  letter-spacing: 4px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  font-size: 4rem;
+}
+.image p {
+  letter-spacing: 2px;
+  font-size: 2rem;
+}

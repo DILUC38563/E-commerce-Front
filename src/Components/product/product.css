@@ -1,0 +1,21 @@
+.product {
+  flex: 1;
+  margin: 5px;
+  min-width: 450px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(238, 232, 224, 0.493);
+  border-radius: 10%;
+}
+.productImg {
+  height: 75%;
+}
+.icon {
+  margin-left: 20px;
+}
+.icon:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}

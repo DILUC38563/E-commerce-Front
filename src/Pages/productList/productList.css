@@ -1,0 +1,16 @@
+.productTitle {
+  margin: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.productFilter {
+  display: flex;
+  justify-content: space-between;
+}
+.filter {
+  margin: 1.5rem;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.filter h2 {
+  margin-bottom: 0;
+}

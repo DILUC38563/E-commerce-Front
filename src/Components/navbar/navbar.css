@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  padding: 0.5rem 1rem;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-family: 'Syne Mono', monospace;
+  font-size: 2rem;
+  gap: 1.5rem;
+  letter-spacing: 2px;
+  background: rgb(193, 213, 233);
+}
+.navLeft {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.searchOption {
+  padding: 0.25em;
+  display: flex;
+  align-items: center;
+  border: 0.5px solid lightslategrey;
+  border-radius: 5px;
+}
+.searchOption input:focus {
+  outline: none;
+}
+.navRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.navCenter {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
